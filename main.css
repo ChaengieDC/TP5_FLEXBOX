@@ -35,7 +35,7 @@
     justify-content: space-evenly;
 }
 
-#d4 div, #d5 div, #d6 div{
+.dice div{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
