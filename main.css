@@ -14,7 +14,6 @@
     border: 1px red solid;
     background-color: red;
     border-radius: 10px;
-    display: flex;
 }
 
 #d1{
@@ -44,4 +43,9 @@
 #d5 div:nth-child(2){
     display: flex;
     align-self: center;
+}
+
+    /* Le dé n°6 est plus joli avec les points moins espacés */
+#d6 div{
+    justify-content: space-evenly;
 }
